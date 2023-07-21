@@ -4,6 +4,7 @@ from cellSegmentation.exception import AppException
 from cellSegmentation.components.data_ingestion import DataIngestion
 from cellSegmentation.components.data_validation import DataValidation
 
+
 from cellSegmentation.entity.config_entity import (DataIngestionConfig,
                                                    DataValidationConfig)
 
@@ -19,7 +20,6 @@ class TrainPipeline:
     def __init__(self):
         self.data_ingestion_config = DataIngestionConfig()
         self.data_validation_config = DataValidationConfig()
-
 
 
 
@@ -72,9 +72,6 @@ class TrainPipeline:
         
         except Exception as e:
             raise AppException(e,sys)
-    
-    
-    
     
     
     
