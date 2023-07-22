@@ -51,5 +51,3 @@ class ModelTrainerConfig:
     weight_name = MODEL_TRAINER_PRETRAINED_WEIGHT_NAME
 
     no_epochs = MODEL_TRAINER_NO_EPOCHS
-
-    batch_size = MODEL_TRAINER_BATCH_SIZE
